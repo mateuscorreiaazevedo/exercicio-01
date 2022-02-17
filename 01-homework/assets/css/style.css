@@ -1,7 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&family=Sarala:wght@400;700&family=Ubuntu:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
 /* 
 font-family: 'Dosis', sans-serif;
 font-family: 'Sarala', sans-serif;
 font-family: 'Ubuntu', sans-serif; 
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 140px;
+}
+
+.main-menu {
+    padding: 20px 190px;
+    display: flex;
+    background: #252323;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-media ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 190px;
+}
+
+.navbar {
+    text-transform: uppercase;
+
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 12px;
+}
