@@ -41,11 +41,14 @@ body {
 }
 
 .logo {
+    float: left;
     padding-left: 10px;
+    width: 90%;
 }
 
 .social-media {
     padding-right: 8px;
+    width: -10%;
 }
 
 .social-media ul {
@@ -84,13 +87,12 @@ body {
 
 .btn-nav {
     color: #8B8B8B;
-    padding: 28px 0;
+    padding: 25px 0;
     font-family: 'Sarala', sans-serif;
 
 }
 
 .btn-nav:hover {
     color: #00BAC6;
-    font-weight: bolder;
     border-bottom: 3px solid #00BAC6;
 }
