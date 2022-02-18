@@ -46,8 +46,13 @@ body {
     width: 90%;
 }
 
+.logo a:hover{
+    padding-bottom: 15px;
+    border-bottom: 2px solid #00BAC6;
+}
+
 .social-media {
-    padding-right: 8px;
+    padding-right: 15px;
     width: -10%;
 }
 
@@ -58,6 +63,19 @@ body {
     justify-content: space-around;
     gap: 20px;
 
+}
+
+.btn-media {
+    padding: 20px 0;
+}
+
+.btn-media a img {
+    height: 25px;
+}
+
+.btn-media:hover {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #00BAC6;
 }
 
 .nav-box {
@@ -95,4 +113,23 @@ body {
 .btn-nav:hover {
     color: #00BAC6;
     border-bottom: 3px solid #00BAC6;
+}
+
+.search {
+    padding-right: 0;
+    margin: 0;
+}
+
+.search input {
+    height: 40px;
+    width: 190px;
+    border: 0.1px solid #D8D8D8;
+    border-radius: 2.1px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px;
+}
+
+.search input:hover {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
 }
