@@ -21,7 +21,10 @@ body {
 }
 
 .main-box {
+    position: fixed;
     background: #252323;
+    height: 60px;
+    width: 100%;
 
 }
 
@@ -31,13 +34,13 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .container {
     margin: 0 auto;
     width: 980px;
     align-items: center;
-    position: relative;
 }
 
 .logo {
@@ -80,6 +83,7 @@ body {
 }
 
 .nav-box {
+    padding-top: 60px;
     background: #FFFFFF;
 }
 
@@ -128,4 +132,11 @@ body {
     border-radius: 2.1px;
     font-family: 'Sarala', sans-serif;
     font-size: 14px;
+}
+
+/* CORPO DO SITE - BANNER */
+
+.banner{
+    width: 100%;
+    
 }
