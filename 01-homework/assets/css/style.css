@@ -46,9 +46,10 @@ body {
     width: 90%;
 }
 
-.logo a:hover{
+.logo a:hover {
     padding-bottom: 15px;
     border-bottom: 2px solid #00BAC6;
+
 }
 
 .social-media {
@@ -107,7 +108,6 @@ body {
     color: #8B8B8B;
     padding: 25px 0;
     font-family: 'Sarala', sans-serif;
-
 }
 
 .btn-nav:hover {
@@ -118,6 +118,7 @@ body {
 .search {
     padding-right: 0;
     margin: 0;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .search input {
