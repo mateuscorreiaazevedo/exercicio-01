@@ -129,8 +129,3 @@ body {
     font-family: 'Sarala', sans-serif;
     font-size: 14px;
 }
-
-.search input:hover {
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.8);
-}
