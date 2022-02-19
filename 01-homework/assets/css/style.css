@@ -96,7 +96,7 @@ body {
 
 .navbar {
     text-transform: uppercase;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .navbar ul {
@@ -110,7 +110,8 @@ body {
 
 .btn-nav {
     color: #8B8B8B;
-    padding: 25px 0;
+    padding-bottom: 27px;
+    font-size: 14px;
     font-family: 'Sarala', sans-serif;
 }
 
@@ -122,21 +123,28 @@ body {
 .search {
     padding-right: 0;
     margin: 0;
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search:hover {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
 }
 
 .search input {
+    background: url(../img/icone-search.png) no-repeat 160px center;
     height: 40px;
     width: 190px;
-    border: 0.1px solid #D8D8D8;
-    border-radius: 2.1px;
+    border: 1px solid #D6D6D6;
+    border-radius: 2.5px;
+    color: #D6D6D6;
     font-family: 'Sarala', sans-serif;
     font-size: 14px;
+    padding-left: 16px;
 }
 
 /* CORPO DO SITE - BANNER */
 
-.banner{
+.banner {
     width: 100%;
-    
+    height: auto;
+
 }
