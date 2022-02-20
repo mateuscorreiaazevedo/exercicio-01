@@ -21,6 +21,8 @@ body {
 
 .main-box {
     position: fixed;
+    top: 0;
+    z-index: 999;
     background: #252323;
     height: 60px;
     width: 100%;
