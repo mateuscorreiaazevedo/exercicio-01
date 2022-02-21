@@ -44,6 +44,18 @@ body {
     align-items: center;
 }
 
+@media (max-width: 980px) {
+    .container{
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .banner-box{
+        margin: 0 auto;
+        position: absolute;
+    }
+}
+
+
 .logo {
     float: left;
     padding-left: 10px;
@@ -147,5 +159,4 @@ body {
 .banner {
     width: 100%;
     height: auto;
-
 }
