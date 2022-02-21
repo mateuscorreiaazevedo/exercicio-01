@@ -43,7 +43,7 @@ body {
     position: fixed;
     top: 0;
     z-index: 999;
-    background: #252323;
+    background: rgb(37, 35, 35);
     height: 60px;
     width: 100%;
 
@@ -66,13 +66,16 @@ body {
 
 .logo {
     float: left;
-    padding-left: 10px;
+    align-items: ;
+    padding: 17px 0px 17px 10px;
     width: 90%;
 }
-.logo a{
+
+.logo a {
     padding-top: 24px;
     padding-bottom: 17px;
 }
+
 .logo a:hover {
     padding-bottom: 15px;
     border-bottom: 2px solid #00BAC6;
